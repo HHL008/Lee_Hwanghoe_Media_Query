@@ -1,0 +1,78 @@
+.hidden
+{
+	display:none;
+}
+
+#container
+{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#Columns
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Column1
+{
+	max-width: 235px;
+	height: 100px;
+	color: blue;
+}
+
+.Column2
+{
+	max-width: 235px;
+	height: 100px;
+	color: purple;
+}
+
+.Column3
+{
+	max-width: 235px;
+	height: 100px;
+	color: grey;
+}
+
+.Column4
+{
+	max-width: 235px;
+	height: 100px;
+	color: brown;
+}
+
+@media screen and (max-width: 641px)
+{
+	#Columns
+	{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.Column1
+	{
+		max-width: 235px;
+		height: 100px;
+		color: pink;
+	}
+
+	.Column2
+	{
+		max-width: 235px;
+		height: 100px;
+		color: red;
+	}
+
+	.Column3
+	{
+		display:none;
+	}
+
+	.Column4
+	{
+		display:none;
+	}
+}
